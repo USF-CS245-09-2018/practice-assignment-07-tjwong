@@ -42,6 +42,7 @@ public class ArrayList implements List {
         curr++;
     }
 
+    
     @Override
     public Object get(int pos) {
         if(pos < 0 || pos >= curr){
